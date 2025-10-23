@@ -4,6 +4,10 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Security: Critical Infrastructure](https://img.shields.io/badge/security-critical%20infrastructure-red.svg)](https://www.cisa.gov/)
 
+> **⭐ If you find this project useful, please star the repository!**  
+> **🔀 Fork it to customize for your organization's needs.**  
+> **📢 Share with your security team and colleagues.**
+
 ## 🎯 Overview
 
 An AI-driven threat intelligence framework specifically designed for **critical infrastructure protection**, with focus on **Financial Services (PPD-21 Sector #6)** and **Food & Agriculture (PPD-21 Sector #2)** sectors. This framework provides automated threat detection, analysis, and response capabilities aligned with federal cybersecurity mandates.
@@ -379,3 +383,4 @@ This framework is designed to support compliance with:
 ---
 
 **Protecting America's Critical Infrastructure Through Advanced Threat Intelligence**
+
