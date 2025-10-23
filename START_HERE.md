@@ -68,8 +68,6 @@ python src/dashboard.py
 ### **"I want to promote it on LinkedIn"**
 **Read:** [PROMOTION_GUIDE.md](PROMOTION_GUIDE.md)
 
-### **"I need it for my NIW application"**
-**Read:** [NIW_EVIDENCE_CHECKLIST.md](NIW_EVIDENCE_CHECKLIST.md)
 
 ---
 
@@ -86,11 +84,6 @@ python src/dashboard.py
 - 🔧 **docs/installation.md** - Detailed installation
 - 🏦 **docs/sector_guides/financial_services.md** - Financial services guide
 
-### **For NIW Application**
-- 📋 **NIW_EVIDENCE_CHECKLIST.md** - Evidence collection guide
-- 📊 **PROJECT_SUMMARY.md** - NIW application summary
-- 📢 **PROMOTION_GUIDE.md** - How to get stars/forks
-- ✅ **QUICK_PROMOTION_CHECKLIST.md** - Daily promotion tasks
 
 ### **Setup & Configuration**
 - 🔧 **SETUP_INSTRUCTIONS.md** - GitHub setup
@@ -116,11 +109,6 @@ python src/dashboard.py
 2. Edit `config/config.yaml`
 3. Run with your settings
 
-### **Week 2: Promote It (For NIW)**
-1. Read [PROMOTION_GUIDE.md](PROMOTION_GUIDE.md)
-2. Post on LinkedIn
-3. Track stars/forks
-4. Collect evidence
 
 ---
 
