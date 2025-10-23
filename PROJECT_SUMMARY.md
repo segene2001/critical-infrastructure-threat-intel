@@ -184,36 +184,6 @@ critical-infrastructure-threat-intel/
 
 ---
 
-## 📞 Next Steps
-
-### To Push to GitHub:
-
-1. **Install Git** (if needed): https://git-scm.com/download/win
-
-2. **Run Setup Script**:
-   ```bash
-   cd "C:\Users\Olusequn Fatokun\CascadeProjects\critical-infrastructure-threat-intel"
-   setup_git.bat
-   ```
-
-3. **Create GitHub Repository**:
-   - Go to https://github.com/new
-   - Name: `critical-infrastructure-threat-intel`
-   - Public repository
-   - Don't initialize with README
-
-4. **Push Code**:
-   ```bash
-   git remote add origin https://github.com/segene2001/critical-infrastructure-threat-intel.git
-   git branch -M main
-   git push -u origin main
-   ```
-
-5. **Add Topics**: threat-intelligence, cybersecurity, critical-infrastructure, financial-services, agriculture, cisa, nist, ppd-21
-
-6. **Create LinkedIn Post**: Announce the repository launch
-
----
 
 ## ✅ Quality Assurance
 
