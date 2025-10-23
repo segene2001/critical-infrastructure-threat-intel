@@ -81,7 +81,14 @@ def main():
             print(f"      • Affected Threats: {data['affected_threats']}")
             print(f"      • Requires Action: {data['requires_action']}")
     
-    # Step 5: Summary
+    # Step 5: Save Data
+    print("\n💾 STEP 5: Saving data...")
+    print("-"*70)
+    collector.save_threats('data/threats.json')
+    analyzer.save_analysis('data/analyzed_threats.json')
+    print("✅ Data saved successfully")
+    
+    # Step 6: Summary
     print("\n" + "="*70)
     print("  SUMMARY")
     print("="*70)
