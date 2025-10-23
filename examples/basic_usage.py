@@ -3,6 +3,12 @@ Basic Usage Example
 Demonstrates basic threat collection and analysis workflow
 """
 
+import sys
+import os
+
+# Add parent directory to path so we can import src modules
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from src.threat_collector import ThreatCollector
 from src.threat_analyzer import ThreatAnalyzer
 from src.sector_analyzers import FinancialServicesAnalyzer, AgricultureAnalyzer
@@ -96,3 +102,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
