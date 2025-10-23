@@ -1,5 +1,4 @@
 # Critical Infrastructure Threat Intelligence Framework
-## Project Summary for NIW Application
 
 ---
 
@@ -46,7 +45,6 @@ critical-infrastructure-threat-intel/
 
 ---
 
-## 🏛️ Federal Alignment (Critical for NIW)
 
 ### 1. Executive Order 14028 - Improving Nation's Cybersecurity
 **How This Project Supports:**
@@ -153,7 +151,6 @@ critical-infrastructure-threat-intel/
 
 ---
 
-## 🎯 NIW Application Strengths
 
 ### Prong 1: Substantial Merit & National Importance
 
@@ -268,7 +265,6 @@ critical-infrastructure-threat-intel/
 
 ## 🎖️ Unique Value Proposition
 
-### What Makes This Project Special for NIW:
 
 1. **Dual-Sector Protection**: Only framework targeting both Financial Services AND Agriculture
 2. **Federal Mandate Implementation**: Directly implements multiple federal initiatives
@@ -339,28 +335,3 @@ critical-infrastructure-threat-intel/
 - ✅ Examples for implementation
 
 ---
-
-## 🏆 Expected Outcomes
-
-### For NIW Application:
-- **Strengthens Prong 1**: Clear national importance and federal alignment
-- **Strengthens Prong 2**: Demonstrates technical expertise and positioning
-- **Strengthens Prong 3**: Shows broader impact beyond employment
-
-### For Professional Portfolio:
-- **Visibility**: Public demonstration of expertise
-- **Credibility**: Production-ready, well-documented code
-- **Impact**: Addresses real critical infrastructure needs
-- **Leadership**: Thought leadership in cybersecurity
-
-### For Critical Infrastructure Community:
-- **Access**: Free tools for threat intelligence
-- **Compliance**: Helps meet federal requirements
-- **Protection**: Enhances security posture
-- **Knowledge**: Shares best practices
-
----
-
-**This repository is a powerful addition to your NIW application!** 🚀
-
-It demonstrates substantial merit, national importance, technical expertise, and broader impact - addressing all three Dhanasar prongs with concrete, verifiable evidence.
