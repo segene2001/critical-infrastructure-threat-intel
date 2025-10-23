@@ -1,0 +1,116 @@
+# Critical Infrastructure Threat Intelligence Configuration
+# Copy this file to config.yaml and update with your settings
+
+# Threat Intelligence Feeds
+threat_feeds:
+  # CISA Automated Indicator Sharing (AIS)
+  cisa_ais:
+    enabled: false  # Set to true when you have API access
+    api_key: "your-cisa-api-key-here"
+    endpoint: "https://ais.cisa.gov/api/v1"
+    
+  # Financial Services ISAC
+  fs_isac:
+    enabled: false  # Set to true when you have API access
+    api_key: "your-fs-isac-api-key-here"
+    endpoint: "https://portal.fs-isac.com/api"
+    
+  # Open Source Intelligence
+  osint:
+    enabled: true
+    sources:
+      - "abuse.ch"
+      - "threatfeeds.io"
+      - "openphish.com"
+
+# Collection Settings
+collection:
+  interval_hours: 1  # How often to collect threats
+  lookback_days: 7   # How far back to look for threats
+  max_threats_per_source: 1000
+
+# Sector Configuration
+sectors:
+  financial_services:
+    enabled: true
+    institution_types:
+      - credit_union
+      - bank
+      - farm_credit
+    compliance_frameworks:
+      - FFIEC
+      - FCA
+      - GLBA
+      - SOX
+    
+  agriculture:
+    enabled: true
+    focus_areas:
+      - supply_chain
+      - iot_devices
+      - rural_infrastructure
+    
+# Machine Learning Models
+ml_models:
+  threat_classification:
+    model_path: "models/threat_classifier.pkl"
+    confidence_threshold: 0.85
+    retrain_interval_days: 30
+    
+  anomaly_detection:
+    model_path: "models/anomaly_detector.pkl"
+    sensitivity: "medium"  # low, medium, high
+
+# Integration Settings
+integrations:
+  # SIEM Integration
+  siem:
+    enabled: false
+    platform: "splunk"  # splunk, qradar, sentinel
+    host: "splunk.example.com"
+    port: 8089
+    api_key: "your-siem-api-key"
+    index: "threat_intel"
+    
+  # SOAR Integration
+  soar:
+    enabled: false
+    platform: "phantom"  # phantom, demisto, swimlane
+    host: "soar.example.com"
+    api_key: "your-soar-api-key"
+    
+  # Threat Intelligence Platform
+  tip:
+    enabled: false
+    platform: "misp"  # misp, threatconnect
+    host: "misp.example.com"
+    api_key: "your-tip-api-key"
+
+# Notification Settings
+notifications:
+  email:
+    enabled: false
+    smtp_server: "smtp.example.com"
+    smtp_port: 587
+    from_address: "threats@example.com"
+    to_addresses:
+      - "security-team@example.com"
+    critical_only: true
+    
+  slack:
+    enabled: false
+    webhook_url: "https://hooks.slack.com/services/YOUR/WEBHOOK/URL"
+    channel: "#security-alerts"
+    
+# Storage Settings
+storage:
+  database: "sqlite"  # sqlite, postgresql, mongodb
+  path: "data/threats.db"
+  retention_days: 365
+
+# Logging
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  file: "logs/threat_intel.log"
+  max_size_mb: 100
+  backup_count: 5
