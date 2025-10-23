@@ -14,13 +14,42 @@
 
 ## ⚡ **Quick Start (5 Minutes)**
 
+### **Complete Basic Workflow - Copy & Paste These Commands:**
+
+```bash
+# Navigate to project directory
+cd ~/critical-infrastructure-threat-intel
+
+# Install dependencies (first time only)
+pip install -r requirements.txt
+
+# Run the complete demo
+python run_demo.py
+
+# Generate visual dashboard
+python src/dashboard.py
+
+# Open dashboard in browser
+explorer.exe dashboard.html    # Windows/WSL
+# OR
+xdg-open dashboard.html        # Linux
+# OR
+open dashboard.html            # Mac
+```
+
+**That's it! You're done!** 🎉
+
+---
+
+### **Step-by-Step Breakdown:**
+
 ### **Step 1: Navigate to Project Directory**
 
 ```bash
 cd ~/critical-infrastructure-threat-intel
 ```
 
-### **Step 2: Install Dependencies**
+### **Step 2: Install Dependencies (First Time Only)**
 
 ```bash
 pip install -r requirements.txt
@@ -32,17 +61,35 @@ pip install -r requirements.txt
 python run_demo.py
 ```
 
+This will:
+- ✅ Collect threats from all sources
+- ✅ Analyze with AI/ML
+- ✅ Calculate risk scores
+- ✅ Prioritize threats
+- ✅ Save data to JSON files
+
 ### **Step 4: Generate Dashboard**
 
 ```bash
 python src/dashboard.py
 ```
 
+This creates `dashboard.html` with visual threat intelligence.
+
 ### **Step 5: View Dashboard**
 
-Open `dashboard.html` in your web browser.
+```bash
+# Windows/WSL
+explorer.exe dashboard.html
 
-**That's it! You're done!** 🎉
+# Linux
+xdg-open dashboard.html
+
+# Mac
+open dashboard.html
+```
+
+Or manually open `dashboard.html` in your web browser.
 
 ---
 
@@ -361,7 +408,6 @@ python src/dashboard.py
 - **docs/installation.md** - Detailed installation guide
 - **docs/sector_guides/financial_services.md** - Financial services guide
 - **PROMOTION_GUIDE.md** - How to promote your repository
-- **NIW_EVIDENCE_CHECKLIST.md** - Evidence collection for NIW
 
 ---
 
@@ -455,35 +501,6 @@ schtasks /create /tn "ThreatIntelDaily" /tr "python C:\path\to\run_demo.py" /sc 
 
 ---
 
-## 📸 **For NIW Application**
-
-### **Screenshots to Take**
-
-1. **Terminal Output**
-   ```bash
-   python run_demo.py
-   # Screenshot the output
-   ```
-
-2. **Dashboard**
-   ```bash
-   python src/dashboard.py
-   # Open dashboard.html and screenshot
-   ```
-
-3. **Data Files**
-   ```bash
-   ls -lh data/
-   cat data/analyzed_threats.json | head -50
-   # Screenshot
-   ```
-
-4. **GitHub Repository**
-   - Go to: https://github.com/segene2001/critical-infrastructure-threat-intel
-   - Screenshot main page
-   - Screenshot README
-
----
 
 ## 💡 **Tips for Success**
 
@@ -505,12 +522,20 @@ schtasks /create /tn "ThreatIntelDaily" /tr "python C:\path\to\run_demo.py" /sc 
 
 ## ✅ **Quick Reference**
 
-### **Essential Commands**
+### **Basic Workflow Commands (Copy & Paste)**
 
 ```bash
-# Complete workflow
-python run_demo.py && python src/dashboard.py
+# COMPLETE BASIC WORKFLOW (Run these in order)
+cd ~/critical-infrastructure-threat-intel
+pip install -r requirements.txt          # First time only
+python run_demo.py                       # Collect & analyze threats
+python src/dashboard.py                  # Generate dashboard
+explorer.exe dashboard.html              # Open dashboard (Windows/WSL)
+```
 
+### **Individual Commands**
+
+```bash
 # Just collect threats
 python src/threat_collector.py
 
@@ -525,6 +550,15 @@ cat data/analyzed_threats.json
 
 # Check what's installed
 pip list | grep -E "requests|yaml|stix"
+```
+
+### **Daily Workflow (After Initial Setup)**
+
+```bash
+cd ~/critical-infrastructure-threat-intel
+python run_demo.py
+python src/dashboard.py
+# Open dashboard.html to review threats
 ```
 
 ### **File Locations**
