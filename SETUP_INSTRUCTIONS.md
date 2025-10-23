@@ -79,7 +79,6 @@ git push -u origin main
 1. Go to https://github.com/new
 2. **Repository name**: `critical-infrastructure-threat-intel`
 3. **Description**: "AI-driven threat intelligence framework for critical infrastructure (Financial Services & Agriculture). Aligned with EO 14028, PPD-21, CISA Strategy, and NIST frameworks."
-4. **Public** (for NIW portfolio visibility)
 5. **DO NOT** initialize with README, .gitignore, or license (we already have these)
 6. Click "Create repository"
 7. Follow the "push an existing repository" instructions shown
@@ -118,46 +117,6 @@ For documentation hosting:
 4. Description: Highlight key features and federal alignment
 5. Publish release
 
-## For Your NIW Application
-
-### Evidence to Collect:
-
-1. **Repository Screenshot**
-   - Take screenshot of main repository page
-   - Capture README with federal alignment section
-   - Screenshot of file structure
-
-2. **Code Samples**
-   - Print key Python files to PDF
-   - Highlight sector-specific analyzers
-   - Show federal compliance features
-
-3. **Documentation**
-   - Print README.md to PDF
-   - Include installation guide
-   - Include financial services guide
-
-4. **Statistics** (after a few weeks)
-   - Stars, forks, watchers
-   - Clone statistics
-   - Contributor activity
-
-### Promotion Strategy:
-
-1. **LinkedIn Post** (Week 1)
-   - Announce repository launch
-   - Highlight federal alignment
-   - Tag relevant hashtags: #Cybersecurity #CriticalInfrastructure #ThreatIntelligence
-
-2. **LinkedIn Article** (Week 2)
-   - "Protecting Critical Infrastructure: An Open-Source Approach"
-   - Discuss PPD-21 sectors
-   - Link to repository
-
-3. **Share with Community**
-   - Post on relevant subreddits (r/cybersecurity, r/netsec)
-   - Share in cybersecurity Discord/Slack communities
-   - Mention in professional networks
 
 ## Quick Reference Commands
 
@@ -214,4 +173,3 @@ git log
 - **Federal Initiatives Aligned**: 6+
 - **Sectors Covered**: 2 (Financial Services, Agriculture)
 
-**Ready to strengthen your NIW application!** 🚀
